@@ -76,7 +76,7 @@ Test payments: card `4242 4242 4242 4242`, any future date, any CVC. To receive 
 
 ## Documentation
 
-- [Replacing the placeholder images](docs/IMAGES.md)
+- [Image assets and photo guidance](docs/IMAGES.md)
 - [Scroll and animation behaviour](docs/ANIMATIONS.md)
 - [Architecture](docs/architecture.md) and [roadmap](docs/roadmap.md)
 

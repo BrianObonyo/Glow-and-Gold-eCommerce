@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 - Visual refresh: Bodoni Moda + Hanken Grotesk, garnet/pearl/gold palette, new hero.
 
 ### Changed
+- The home page "Gifts that sparkle" offer now uses `frontend/public/images/hero/sparkle.jfif`; the original SVG remains available as placeholder artwork.
 - Replaced native `bcrypt` with `bcryptjs` (works on serverless), one shared Prisma client, JWT expiry 7d -> 24h.
 - Stripe webhook now verifies the signature against the raw body and is idempotent.
 - API returns 400 for validation errors and 409 for duplicate emails instead of 500.

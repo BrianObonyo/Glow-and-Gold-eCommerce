@@ -1,21 +1,29 @@
 # Images
 
-The storefront includes product photography in `frontend/public/images/products/` and a hero photo in `frontend/public/images/hero/`. The original SVG artwork remains available as placeholder imagery.
+The storefront uses product photography in `frontend/public/images/products/` and hero photography for the home hero, collection cards, and the "Gifts that sparkle" offer in `frontend/public/images/hero/`. Original SVG artwork remains available as placeholder imagery.
 
 ## Where images live
 
 ```
 frontend/public/images/
+  favicon.ico                browser tab favicon
+  favicon-16x16.png          16px browser favicon
+  favicon-32x32.png          32px browser favicon
+  apple-touch-icon.png       Apple home-screen icon
+  android-chrome-192x192.png Android home-screen icon
+  android-chrome-512x512.png Android home-screen icon
+  site.webmanifest           installable app name, icons, and theme
   hero/a lipstick beside gold jewelry.jfif  home hero photo
   hero/liips.jfif         Lips collection thumbnail
   hero/eyes and face.jfif Eyes & Face collection thumbnail
   hero/jewelry.jfif       Jewelry collection thumbnail
-  hero/offer.svg           home offer banner (~1200x600)
+  hero/sparkle.jfif       "Gifts that sparkle" offer banner
+  hero/offer.svg           original offer-banner placeholder artwork
   collections/*.svg        three tall collection tiles (~800x1000)
   products/<slug>.jfif     product photos, matched by slug in the seed data
 ```
 
-Anything in `public/` is served as-is from `/images/...`.
+Anything in `frontend/public/` is served from the site root. Image files are available under `/images/...`; the HTML head links the favicon assets and web manifest.
 
 ## Swapping in real photos
 

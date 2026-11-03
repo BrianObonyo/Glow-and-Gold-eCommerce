@@ -81,7 +81,7 @@ export default function Home() {
       <Section className="offer" id="offer">
         <div className="container">
           <div className="offer-card hover-shine has-before">
-            <div className="has-bg-image" style={{ backgroundImage: "url(/images/hero/offer.svg)" }} />
+            <div className="has-bg-image" style={{ backgroundImage: 'url("/images/hero/sparkle.jfif")' }} />
             <h2 className="h2">Gifts that sparkle</h2>
             <p className="hero-text">Pair a signature lip with our pearl earrings.</p>
             <Link to="/shop?category=jewelry" className="btn btn-secondary">Shop jewelry</Link>
