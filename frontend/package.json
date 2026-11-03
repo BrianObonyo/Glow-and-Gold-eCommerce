@@ -2,7 +2,7 @@
   "name": "brian-ecommerce-frontend",
   "version": "0.1.0",
   "private": true,
-  "license": "BSD-3-Clause",
+  "license": "UNLICENSED",
   "type": "module",
   "scripts": {
     "dev": "vite",

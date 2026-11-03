@@ -9,7 +9,7 @@ A full-stack makeup and fine jewelry storefront by Brian Otieno Obonyo, with a p
 - **Cart and checkout**: server-side cart, prices always re-read from the database, Stripe Elements payment (test mode)
 - **Orders**: Stripe webhook with signature verification marks orders paid, decrements stock, clears the cart (idempotent)
 - **Auth**: email/password with JWT, rate-limited, timing-safe login
-- **Security**: Helmet, strict CSP, Zod validation on every input, server-side pricing ([details](docs/DEPLOYMENT.md#security-measures-in-place))
+- **Security**: Helmet, strict CSP, Zod validation on every input, and server-side pricing
 
 ## Architecture
 
@@ -76,7 +76,6 @@ Test payments: card `4242 4242 4242 4242`, any future date, any CVC. To receive 
 
 ## Documentation
 
-- [Deployment on Vercel (+ Neon, Stripe)](docs/DEPLOYMENT.md)
 - [Replacing the placeholder images](docs/IMAGES.md)
 - [Scroll and animation behaviour](docs/ANIMATIONS.md)
 - [Architecture](docs/architecture.md) and [roadmap](docs/roadmap.md)
@@ -87,4 +86,4 @@ Contributions welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). Issues tagged `go
 
 ## License
 
-BSD 3-Clause, see [LICENSE](LICENSE).
+All rights reserved. This repository is public for portfolio viewing only. See [LICENSE](LICENSE) for reuse terms.

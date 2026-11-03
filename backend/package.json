@@ -2,7 +2,7 @@
   "name": "brian-ecommerce-backend",
   "version": "0.1.0",
   "private": true,
-  "license": "BSD-3-Clause",
+  "license": "UNLICENSED",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
