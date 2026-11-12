@@ -1,4 +1,5 @@
-# Contributing to Brian E-commerce
+# Glow-and-Gold-eCommerce
+
 
 Thanks for considering a contribution!
 
