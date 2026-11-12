@@ -2,7 +2,8 @@
 
 ## Our Pledge
 
-We as contributors and maintainers pledge to make participation in Brian E-commerce a
+We as contributors and maintainers pledge to make participation in Glow-and-Gold-eCommerce
+a
 harassment-free experience for everyone, regardless of age, body size,
 disability, ethnicity, gender identity and expression, level of experience,
 nationality, personal appearance, race, religion, or sexual identity and
