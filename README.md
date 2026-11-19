@@ -1,4 +1,4 @@
-# Glow & Gold
+# Glow & Gold.
 
 A full-stack makeup and fine jewelry storefront by Brian Otieno Obonyo, with a product catalog, cart, Stripe checkout, order tracking, and a separate REST API.
 
